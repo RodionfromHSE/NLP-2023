@@ -12,10 +12,6 @@ This repository contains the source code and notebooks for a text similarity mod
   - [Contents](#contents)
   - [Notes](#notes)
   - [Models Comparison](#models-comparison)
-  - [Fine-tuning the Model](#fine-tuning-the-model)
-  - [Data Collection](#data-collection)
-  - [Scoring the Dataset Samples](#scoring-the-dataset-samples)
-  - [Fine-tuning the Model (Incomplete)](#fine-tuning-the-model-incomplete)
 - [Interpretation](#interpretation)
 
 ## Notes
@@ -31,28 +27,9 @@ In this section, I compare different models and their performance on the text si
 
 The `models_comparison` notebook contains the code and results of these comparisons. Based on the results, I chose the model that performed best on the dataset.
 
-## Fine-tuning the Model
-
-After selecting the best-performing model, I fine-tuned it on our dataset to improve its performance on the text similarity task. The `fine_tune` notebook contains the code and results of the fine-tuning process. I also provide an interpretation of the results in the end of readme, discussing the model's performance and any potential improvements that could be made.
-
----
-**This is additional tasks that are much more relevant to the project topic.**
-
-## Data Collection
-
-The `dataset` notebook covers the data collection process. I collected a dataset of python stack traces. The data was preprocessed to remove any irrelevant information and to ensure that the text was in a suitable format for training the model.
-
-## Scoring the Dataset Samples
-
-In the `scoring` notebook. I used a combination of heuristics to assign similarity scores to pairs of stack traces. The motivation behind this scoring approach was to create a dataset that accurately reflects the semantic similarity between stack traces, allowing the model to learn meaningful representations of the data. _It was the most challenging part of the project._
-
-## Fine-tuning the Model (Incomplete)
-
-Due to limited resources, the fine-tuning process is incomplete. The `fine_tuning_incomplete` notebook serves as a placeholder for future work on the model. Once more resources are available, the model can be further fine-tuned to improve its performance on the text similarity task.
-
 # Interpretation
 
-Let's analyze the model's performance for each pair of sentences: (look in `src/fine_tune.ipynb` for details)
+Let's analyze the model's performance for each pair of sentences: 
 
 1. **Example 1**
     - Sentence1: "US, China fail to paper over cracks in ties"
