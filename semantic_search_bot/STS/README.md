@@ -3,7 +3,7 @@ Semantic Text Similiarity
 
 # Text Similarity Model
 
-This repository contains the source code and notebooks for a text similarity model. The model is trained and fine-tuned on a dataset of stack traces, which has been converted into an STS dataset.
+This repository contains the source code and notebooks for a text similarity model. 
 
 ## Contents
 
@@ -18,7 +18,6 @@ This repository contains the source code and notebooks for a text similarity mod
 
 1. `pip3 install -r requirements.txt` to install dependencies
 2. Dataset used for STS fine-tune: `stsb_multi_mt` (en)
-3. Stack traces [source](https://www.kaggle.com/datasets/simiotic/python-tracebacks)
 
 ## Models Comparison
 
