@@ -20,7 +20,7 @@ Finally, we beated Tf-Idf baseline! I think we should send our achievements to t
 * Flash Attention [link](https://docs.google.com/presentation/d/1dJjHDh6MAOaPRFACmHqHDy2Q_-gsiJ7ZDnCWWqhzDt4/edit?usp=sharing)
 
 **Work distribution**:
-|          | Rodion | Mikhailo |
+|          | Rodion | Mykhailo |
 |----------|--------|-----------|
 | Presentations | 0.5 |     0.5      |
 | Tf-Idf   | 0.  |     1.      |
